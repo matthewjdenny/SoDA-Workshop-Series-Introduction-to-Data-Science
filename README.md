@@ -28,7 +28,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * For Mac users, get X-Code Command Line Tools by following this tutorial: [http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
     * Here is a link to my pictorial on setting up R and RStudio: [http://www.mjdenny.com/Data_Science_Tools.html](http://www.mjdenny.com/Data_Science_Tools.html). There is also a bit on using GitHub, which I highly recommend!
  
- 2. **8-31-17: Getting Started with R Programming**:
+ 2. **9-7-17: Getting Started with R Programming**:
     * In this workshop, we will get started writing our first R commands. In particular, we will learn about defining variables, writing comments, doing some basic math, comparing variables, and printing information to the R console. This is the stuff I use most often in my day-to-day workflow, and will form the foundation for the more advanced programming concepts we learn throughout this series.
     
 
