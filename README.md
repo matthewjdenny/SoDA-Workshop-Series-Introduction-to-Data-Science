@@ -29,6 +29,6 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * Here is a link to my pictorial on setting up R and RStudio: [http://www.mjdenny.com/Data_Science_Tools.html](http://www.mjdenny.com/Data_Science_Tools.html). There is also a bit on using GitHub, which I highly recommend!
  
  2. **8-31-17: Getting Started with R Programming**:
-    * In this workshop, we will get started writing our first R commands. In particular, we kearn about defining variables, writing comments, doing some basic math, comparing variables, and printing information to the R console. Nothing here will be particularly fancy, but this is the stuff I use most often in my day-to-day workflow.
+    * In this workshop, we will get started writing our first R commands. In particular, we will learn about defining variables, writing comments, doing some basic math, comparing variables, and printing information to the R console. This is the stuff I use most often in my day-to-day workflow, and will form the foundation for the more advanced programming concepts we learn throughout this series.
     
 
