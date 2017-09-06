@@ -30,5 +30,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
  
  2. **9-7-17: Getting Started with R Programming**:
     * In this workshop, we will get started writing our first R commands. In particular, we will learn about defining variables, writing comments, doing some basic math, comparing variables, and printing information to the R console. This is the stuff I use most often in my day-to-day workflow, and will form the foundation for the more advanced programming concepts we learn throughout this series.
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_2-Basic_R_Programming.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_2-Basic_R_Programming.R).
     
 
