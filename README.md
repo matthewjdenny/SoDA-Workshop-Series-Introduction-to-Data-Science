@@ -35,4 +35,5 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     
 3. **9-14-17: Basic Programming and Data Structures in R**:
     * In this workshop, we will wrap up covering some programming basics in R, and then get into the five basic data structures we will be using throughout this workshop series. Values, vectors, matrices, data.frames and lists provide a powerful and flexible toolbox for representing social science data. We will learn how these different data structures can be used separately and together to represent complex social science datasets.
-
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_3-Programming_and_Datastructures.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
