@@ -38,8 +38,8 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_3-Programming_and_Datastructures.pptx).
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
     
- 4. **9-21-17: Data Structures in R**:
-    * In this workshop, we will keep covering basic data structure in R, dealing with matrices, data.frames, and list objects. We will also learn about subsetting and indexing these objects, so we can begin to access and chop up the data structures we create. This workshops is where you should finally start to see some of the data structures you are more familiar with (like spreadsheets), and learn how to extract useful bits of information from those data structures. 
+ 4. **9-21-17: Data Structures and Subsetting in R**:
+    * In this workshop, we will keep covering basic data structures in R: dealing with matrices, data.frames, and list objects. We will also learn about subsetting and indexing these objects, so we can begin to access and chop up the data structures we create. This workshops is where you should finally start to see some of the data structures you are more familiar with (like spreadsheets), and learn how to extract useful bits of information from those data. 
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
     
  5. **9-28-17: Data I/O and R Packages**:
