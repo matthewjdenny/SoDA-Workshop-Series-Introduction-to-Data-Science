@@ -38,9 +38,11 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_3-Programming_and_Datastructures.pptx).
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
     
- 4. **9-21-17: Data Structures and Subsetting in R**:
+ 4. **9-21-17: WORKSHOP POSTPONED**: I am getting over a nasty cold and am not sure my voice can last for an hour, so we are postponing this workshop until next week, see you all then!
+ 
+ 5. **9-28-17: Data Structures and Subsetting in R**:
     * In this workshop, we will keep covering basic data structures in R: dealing with matrices, data.frames, and list objects. We will also learn about subsetting and indexing these objects, so we can begin to access and chop up the data structures we create. This workshops is where you should finally start to see some of the data structures you are more familiar with (like spreadsheets), and learn how to extract useful bits of information from those data. 
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
     
- 5. **9-28-17: Data I/O and R Packages**:
+ 6. **10-5-17: Data I/O and R Packages**:
     * In this workshop, we will finally move beyond the basic functionality provided by defaul in R, and learn about how to extend that functionality by using R packages. We will make use of one such package (rio), to read in (and write out) data from many different formats to R (SAS, Sata, Excel, Minitab, SPSS, etc.).  
