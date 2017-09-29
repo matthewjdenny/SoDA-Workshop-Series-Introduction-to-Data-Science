@@ -7,7 +7,7 @@ rm(list = ls())
 # Assign a value to a variable (remember to use no spaces or symbols other than
 # . or _ in your variable name):
 my_value <- 24 # number
-my_value <- "cat" # character
+my_value <- "dog" # character
 my_value <- FALSE # boolean
 
 # Create a vector using the concatenation operator 'c()'. This is our first
@@ -37,7 +37,7 @@ length(my_vector)
 
 
 
-### Matrices ###
+ ### Matrices ###
 
 # We can also create a matrix (can only hold one kind of data -- usually
 # numbers) by using the matrix() function:

@@ -155,7 +155,7 @@ cat("Hello World")
 # So we have to manually break lines with 'cat()' using the "\n" (newline)
 # symbol:
 {
-    cat("Hello \n")
+    cat("Hello\n")
     cat("World")
 }
 
@@ -166,7 +166,7 @@ cat("Hello World")
 # you want and sticks them all together using a user specified separator:
 
 # Lets define a variable to hold the number of fingers we have:
-fingers <- 8
+fingers <- 14
 
 # Now lets print out how many fingers we have:
 print(paste("Hello,", "I have", fingers, "fingers", sep = " "))
