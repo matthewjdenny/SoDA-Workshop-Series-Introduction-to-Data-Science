@@ -44,5 +44,13 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * In this workshop, we will keep covering basic data structures in R: dealing with matrices, data.frames, and list objects. We will also learn about subsetting and indexing these objects, so we can begin to access and chop up the data structures we create. This workshops is where you should finally start to see some of the data structures you are more familiar with (like spreadsheets), and learn how to extract useful bits of information from those data. 
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_3-Basic_Datastructures.R).
     
- 6. **10-5-17: Data I/O and R Packages**:
+  
+ 6. **10-5-17: NO WORKSHOP**: SoDA Job Candidate will be visiting so there will be no workshop this week.
+  
+ 7. **10-12-17: Data I/O and R Packages**:
     * In this workshop, we will finally move beyond the basic functionality provided by defaul in R, and learn about how to extend that functionality by using R packages. We will make use of one such package (rio), to read in (and write out) data from many different formats to R (SAS, Sata, Excel, Minitab, SPSS, etc.).  
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_5-Data_IO_and_Packages.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_5-Data_IO_and_Packages.R).
+    
+    
+   
