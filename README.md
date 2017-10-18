@@ -52,7 +52,10 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_5-Data_IO_and_Packages.pptx).
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_5-Data_IO_and_Packages.R).
    
-  8. **10-19-17: Looping and Conditionals**:
+8. **10-19-17: Looping and Conditionals**:
     * In this workshop we will begin to give R a "brain". First, we will teach it how to repeat tasks for us, such as adding numbers together. Next, we will learn the syntax for executing code only if some condition(s) are met. Finally, we will combine these concepts so that we can automate the process of checking through data and taking some actions dependent on what the program finds. We will then apply our skills to a real-world example.
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_6-Looping_and_Conditionals.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_6-Looping_and_Conditional_Statements.R).
+    * You can download the example data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Looping_Conditionals_Example_Data.RData)
     
    
