@@ -58,4 +58,9 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_6-Looping_and_Conditional_Statements.R).
     * You can download the example data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Looping_Conditionals_Example_Data.RData)
     
+9. **10-26-17: Functions**:
+    * In this workshop, we will start to think about writing R code that is useful for more than just the specific task we are doing at the moment. In R, functions are way of taking some code that works for one task, and making it easily applicable to other similar tasks. We have already encountered functions (like sum()), and we will learn how to define our own functions. Functions also allow us to build in automatic checks that we are not making data management mistakes, and we will go through a function template to make this easier going forward. Functions are great, lets learn how to use them!
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_6-Looping_and_Conditionals.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_6-Looping_and_Conditional_Statements.R).
+    
    
