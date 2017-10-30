@@ -10,7 +10,7 @@
 
 # Lets start with a really simple example
 first_function <- function(number) {
-    print(number)
+    print(number + 1000)
 }
 
 # In our second example, we are going to define a function that will take the
@@ -47,12 +47,14 @@ temp <- my_column_sum(col_number = 1,
 # Lets double check our result:
 sum(my_mat[,1])
 
+
 # Now we can loop through all columns in the matrix and apply our function to
 # each one. This is where the real power of functions comes out --that we can
 # use them inside of more complex programs, even inside other functions:
 for (i in 1:10) {
-    cat(my_column_sum(col_number = i,
-                      my_matrix = my_mat),"\n")
+    colsum <- my_column_sum(col_number = i,
+                            my_matrix = my_mat)
+    cat(colsum,"\n")
 }
 
 
@@ -148,17 +150,31 @@ my_mat <- matrix(1:100,
 
 # We do not need to give an argument name if there is only one required
 # argument (one without a defaul value):
-template(my_mat)
+temp <- template(my_mat)
 
 # Now lets change one of the default arguments
-template(my_mat,
-         argument2 = 20)
+temp <- template(my_mat,
+                 argument2 = 20)
 
 # Finally lets change argument3
-template(my_mat,
-         argument2 = -5,
-         argument3 = "cat")
+temp <- template(my_mat,
+                 argument2 = 1000,
+                 argument3 = "koala bear")
 
+# Lets break it! First, we just pass in a string as the first argument:
+temp <- template("catzzz rule",
+                 argument2 = 1000,
+                 argument3 = "koala bear")
+
+# Now instead, we can try a matrix full of strings:
+my_catzz <- matrix("catttzzzzz",
+                 ncol = 10,
+                 nrow = 10)
+
+# Which throws a different error:
+temp <- template(my_catzz,
+                 argument2 = 1000,
+                 argument3 = "koala bear")
 
 
 ### Using Functions Stored in Another File ###
@@ -167,7 +183,7 @@ template(my_mat,
 setwd("~/Desktop")
 
 # Now use source() to load in additional user-defined functions:
-source("Additional_Functions.R")
+source("Workshop_7-Additional_Functions.R")
 
 # Lets try out our function on some example data:
 my_mat <- matrix(1:900,
