@@ -63,5 +63,11 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_7-Functions.pptx).
     * You can download the first R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_7-Functions.R).
      * You can download the second R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_7-Additional_Functions.R).
+     
+10. **11-2-17: Managing Multiple Datasets**:
+    * In this workshop, we will begin to synthesize what we have learned so far and apply it to managing multiple complex datasets. The primary activity we will cover in this workshop will be a worked example managing 11 large relational datasets and extracting useful information from them using loops and conditionals. We will also make use of loops and lists to help us store and easily access the 11 datasets we will be working with. Finally, we will start to put our data management skills together with what we know about functions to automate and generalize the process of reading in and cleaning data. 
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_8-Managing_Multiple_Datasets.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_8-Managing_Multiple_Datasets.R).
+     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_8-Data.zip). Be sure to unzip the file when you download it and save the extracted folder somewhere where you can find it.
     
    
