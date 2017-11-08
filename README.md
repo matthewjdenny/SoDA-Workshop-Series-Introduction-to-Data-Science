@@ -69,5 +69,11 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_8-Managing_Multiple_Datasets.pptx).
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_8-Managing_Multiple_Datasets.R).
      * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_8-Data.zip). Be sure to unzip the file when you download it and save the extracted folder somewhere where you can find it.
+
+11. **11-9-17: Working with Text Data**:
+    * In this workshop, we will cover the basics of manipulating and representing text data in R. Learning how to chop up, manipulate, and extract bits of text from string (text) data is a critical skill for working with messy data, web scraping, and for conducting text as data analyses. We will start by diving into the stringr libraries for extracting a replacing parts of strings, and then work with the quanteda library for forming and manipulating document-term matrices. The skills we cover here will form the basis for a series of lectures of web-scraping this spring.  
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_8-Managing_Multiple_Datasets.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_8-Managing_Multiple_Datasets.R).
+     
     
    
