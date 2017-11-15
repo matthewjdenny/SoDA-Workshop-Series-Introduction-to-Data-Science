@@ -74,6 +74,11 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * In this workshop, we will cover the basics of manipulating and representing text data in R. Learning how to chop up, manipulate, and extract bits of text from string (text) data is a critical skill for working with messy data, web scraping, and for conducting text as data analyses. We will start by diving into the stringr libraries for extracting a replacing parts of strings, and then work with the quanteda library for forming and manipulating document-term matrices. The skills we cover here will form the basis for a series of lectures on web-scraping this spring.  
     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_9-Working_with_Text_Data.pptx).
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_9-Working_with_Text_Data.R).
-     
+    
+ 12. **11-16-17: Long and Wide Data**:
+    * In this workshop, we will cover transforming data between long and wide formats -- two common representations of panel data. Data in Long format are often of the form where each row represents an observation of a particular individual at a particular time point. Data in wide format have one row for each individual, but lots of columns recording time-varying variables at different time points. Different analysis tasks often require that we be able to switch between these two representations, and this workshop shows you how to make the conversion in both directions.
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_10-Long_and_Wide_Data.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_10-Long_and_Wide_Data.R).
+    * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Long_Wide_Data.RData).
     
    
