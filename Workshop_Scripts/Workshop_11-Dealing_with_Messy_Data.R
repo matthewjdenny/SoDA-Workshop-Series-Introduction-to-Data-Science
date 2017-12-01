@@ -111,6 +111,12 @@ Baseline <- Baseline[,-c(4,5)]
 # Now extract the non-baseline rows:
 Treatments <- Messy_Data[-baseline_rows,]
 
+# Using the summary function is a great idea!
+summary(Treatments$Amount_Paid)
+
+# Or try the unique function for text variables:
+unique(Treatments$Group)
+
 # The last step I would take, like the first, would be to simply look at the
 # data! If we see anything else out of place, then we need to fix it. Using the
 # unique() function is often the easiest way to look for weird stuff. The
