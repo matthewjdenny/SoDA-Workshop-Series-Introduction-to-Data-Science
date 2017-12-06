@@ -87,6 +87,13 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_11-Dealing_with_Messy_Data.R).
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_11-Messy_Data.csv).
     
+14. **12-7-17: Data Management by Example**:
+    * In this workshop we will try to wrap up what we have covered this semester in the form of some review and an exercise. We will try out some practical data management tasks on an example dataset after I review the key concepts we have covered so far this semester. This will be the last workshop for the Fall semester, so I will leave you all with an additional assignment to try out for yourselves over Winter break before we resume the workshop series in the Spring.
+     * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_12-Data_Management_by_Example.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_12-Example.R).
+    * You can download the solution R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_12-Example_Solution.R).
+    * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_12-Synthetic_Tweets.RData).
+    
     
    
    
