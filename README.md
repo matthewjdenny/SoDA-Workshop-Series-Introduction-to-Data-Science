@@ -94,7 +94,13 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the solution R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_12-Example_Solution.R).
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_12-Synthetic_Tweets.RData).
     
-    
+14. **Winter Break: Managing Multiple Datasets Homework**:
+    * This optional homework assignment should be completed before our first meeting in the Spring semester. It covers working with multiple datasets and using loops and conditionals to work with large data.frames. 
+
+    * You can download the assignment [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework.R).
+    * You can download the solution [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework_Solution.R).
+    * You can download the data [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Winter_Break_Data.zip).
+        
    
    
    
