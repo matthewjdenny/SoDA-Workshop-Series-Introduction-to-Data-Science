@@ -100,6 +100,35 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the assignment [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework.R).
     * You can download the solution [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework_Solution.R).
     * You can download the data [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Winter_Break_Data.zip).
+    
+    
+16. **1/29/18: Review of R Programming and Managing Multiple Datasets Homework**:
+    * In our first workshop of the Sping semester, we will quickly review what we covered in the Fall semester, and sped some time going over the solution to the winter break assignment. If you are new to the workshops, this will give you a chance to see what you need to know to move forward with the workshops. If you are returning, it will give you a chance to get your head back in the game, and ready to continue learning R for data science. 
+    
+
+17. **2/12/18: Introduction to Web Scraping with R**:
+
+18. **2/19/18: Scraping Twitter**:
+
+19. **2/26/18: Advanced Web Scraping**:
+
+20. **3/5/18: Overveiw of Big Data and HPC in Social Science Research**:
+
+21. **3/12/18: Basics of Efficicent Programming**:
+
+22. **3/19/18: Efficient Programming Exercise**:
+
+23. **3/26/18: Parallelization**:
+
+24. **4/2/18: Cluster Computing**:
+
+25. **4/9/18: Plotting**:
+
+26. **4/16/18: Managing Social Network Data**:
+
+27. **4/23/18: Creating Your Own R Package**:
+
+28. **4/30/18: Wrap-up/Catch-up Day**:
         
    
    
