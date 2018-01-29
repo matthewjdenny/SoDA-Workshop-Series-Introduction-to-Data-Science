@@ -105,6 +105,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
 16. **1/29/18: Review of R Programming and Managing Multiple Datasets Homework**:
     * In our first workshop of the Spring semester, we will quickly review what we covered in the Fall semester, and spend some time going over the solution to the winter break assignment. If you are new to the workshops, this will give you a chance to see what you need to know to move forward with the workshops. If you are returning, it will give you a chance to get your head back in the game, and ready to continue learning R for data science. 
     
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_13-Review.pptx).
     * You can download the assignment [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework.R).
     * You can download the solution [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Winter_Break_Homework_Solution.R).
     * You can download the data [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Winter_Break_Data.zip).
