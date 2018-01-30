@@ -112,6 +112,9 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     
 
 17. **2/12/18: Introduction to Web Scraping with R**:
+    * This week, we will cover the basics of automated data collection from the internet, including legal issues. We will start out by taking the basic approach of treating web pages as text documents, and will use the tools we have developed for working with text data to extract useful information from HMTL webpages. We will then apply what we have learned in an example scraping Google Scholar. This workshop will set the stage for the next several weeks of workshops. 
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_14-Basic_Web_Scraping.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_14-Basic_Web_Scraping.R).
 
 18. **2/19/18: Scraping Twitter**:
 
