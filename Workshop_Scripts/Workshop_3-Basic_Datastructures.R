@@ -40,7 +40,7 @@ length(my_vector)
  ### Matrices ###
 
 # We can also create a matrix (can only hold one kind of data -- usually
-# numbers) by using the matrix() function:
+# numbers) by using the 'matrix()' function:
 my_matrix <- matrix(data = 1:10, # what gets stored in the matrix
                     ncol = 5, # the number of columns
                     nrow = 20, # the number of rows
@@ -51,7 +51,7 @@ my_matrix[1,] # rows come before the comma [row,colum]
 my_matrix[,5] # columns come after
 my_matrix[3,3]
 
-# We can cate new variables out of pieces of matrices:
+# We can create new variables out of pieces of matrices:
 val <- my_matrix[3,3]
 val <- my_matrix[,3]
 
@@ -105,7 +105,7 @@ my_data$Grades[3] # Treating $ indexed columns as vectors
 # To create an empty list, object, we actually use the 'vector()' function.
 my_list <- vector(mode = "list", length = 10)
 
-# We can also create a list from objects. Not that we can name each entry in a
+# We can also create a list from objects. Note that we can name each entry in a
 # list just as we would with a data.frame:
 my_list <- list(num = 10,
                 animal = "dog",
