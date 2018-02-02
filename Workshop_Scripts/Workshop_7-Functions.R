@@ -98,7 +98,7 @@ template <- function (argument1,
         stop("argument2 must be a number!")
     }
 
-    # Check to see if argument 3 was NULL. If it was, do not do mroe stuff,
+    # Check to see if argument 3 was NULL. If it was, do not do more stuff,
     # but if it was not NULL, do more stuff.
     do_more_stuff <- FALSE
     if (!is.null(argument3)) {
@@ -115,7 +115,7 @@ template <- function (argument1,
     # Start by adding argument2 to each element of the matrix:
     argument1 <- argument1 + argument2
 
-    # Now lets calcuate the sum:
+    # Now let's calcuate the sum:
     total <- sum(argument1)
 
     # If argument3 was provided:
@@ -141,7 +141,7 @@ template <- function (argument1,
 
 }
 
-# Lets try it out!
+# Let's try it out!
 
 # Start by creating a matrix
 my_mat <- matrix(1:100,
@@ -149,19 +149,19 @@ my_mat <- matrix(1:100,
                  nrow = 10)
 
 # We do not need to give an argument name if there is only one required
-# argument (one without a defaul value):
+# argument (one without a default value):
 temp <- template(my_mat)
 
-# Now lets change one of the default arguments
+# Now let's change one of the default arguments
 temp <- template(my_mat,
                  argument2 = 20)
 
-# Finally lets change argument3
+# Finally let's change argument3
 temp <- template(my_mat,
                  argument2 = 1000,
                  argument3 = "koala bear")
 
-# Lets break it! First, we just pass in a string as the first argument:
+# Let's break it! First, we just pass in a string as the first argument:
 temp <- template("catzzz rule",
                  argument2 = 1000,
                  argument3 = "koala bear")
@@ -185,7 +185,7 @@ setwd("~/Desktop")
 # Now use source() to load in additional user-defined functions:
 source("Workshop_7-Additional_Functions.R")
 
-# Lets try out our function on some example data:
+# Let's try out our function on some example data:
 my_mat <- matrix(1:900,
                  nrow = 30,
                  ncol = 30)
