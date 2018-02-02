@@ -6,7 +6,7 @@ find_positions <- function(mat,
                            numbers) {
 
 
-    # Lets make sure the first argument is a matrix
+    # Let's make sure the first argument is a matrix
     if (class(mat)[1] != "matrix") {
         stop("mat must be a matrix!")
     }
@@ -17,7 +17,7 @@ find_positions <- function(mat,
         stop("mat must be a numeric matrix!")
     }
 
-    # Now lets make sure that numbers are numeric
+    # Now let's make sure that numbers are numeric
     if (class(numbers) != "numeric") {
         stop("numbers must be a numeric vector")
     }
