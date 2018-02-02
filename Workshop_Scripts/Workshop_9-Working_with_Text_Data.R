@@ -1,6 +1,6 @@
 #### Text Processing in R ####
 
-# Lets start with some preliminaries:
+# Let's start with some preliminaries:
 rm(list = ls())
 setwd("~/Desktop")
 
@@ -75,7 +75,7 @@ stringr::str_extract_all(my_string,"\\d+")[[1]]
 stringr::str_extract_all(my_string,"\\w+")[[1]] # "word" characters
 
 
-# Lets start with some example text:
+# Let's start with some example text:
 text <- "SEC. 101. FISCAL YEAR 2017.
 (a) In General.--There are authorized to be appropriated to NASA
 for fiscal year 2017 $19,508,000,000, as follows:
@@ -107,7 +107,7 @@ stringr::str_extract_all(text,"[0-9]+")[[1]]
 # This line of code will extract all contiguous sequences of numbers of length
 # one or greater.
 
-# Lets try to get dollar amounts.
+# Let's try to get dollar amounts.
 stringr::str_extract_all(text,"\\$[,0-9]+")[[1]] # must start with $
 # That says "give me everything that
 #     Starts with a "$" (which needs to be escaped: "\\")
@@ -244,7 +244,7 @@ kwic(data_corpus_inaugural, "tombstones", window=4)
 options(width=80)
 
 # The common goal of most text preprocessing is to generate a document-term
-# matrix, where each row represents a document, and each column represents  the
+# matrix, where each row represents a document, and each column represents the
 # count of a vocabulary term in the current document.
 doc_term_matrix <- quanteda::dfm(corp,
                                  tolower = TRUE,
@@ -253,7 +253,7 @@ doc_term_matrix <- quanteda::dfm(corp,
                                  remove = stopwords("english"),
                                  ngrams = 1)
 
-# lets take a look at some vocabulary terms:
+# let's take a look at some vocabulary terms:
 # What kind of object is doc_term_matrix? 
 class(doc_term_matrix)
 
