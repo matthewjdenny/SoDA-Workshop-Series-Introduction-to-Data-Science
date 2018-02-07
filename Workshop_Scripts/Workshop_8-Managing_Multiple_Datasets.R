@@ -13,13 +13,13 @@ setwd("~/Desktop/Data")
 # cosponsorship activity for 11 sessions of the U.S. Senate (22 years). It is
 # broken up into 11 .csv files, which we will need to read in one at a time. The
 # list.files() function can help us do this. It will return a list of all files
-# in a folder as a character vector. We can  use this vector to read in
+# in a folder as a character vector. We can use this vector to read in
 # the files by name. They key thing is to make sure that there are not any
 # files you do not want to read in in the folder, or to remove those afterward:
 filenames <- list.files()
 
 # These data are arranged in the following format: There is one row for each
-# Senator (in a given session of Congress), and one column for each peice of
+# Senator (in a given session of Congress), and one column for each piece of
 # legislation introduced in that session of Congress. The [i,j] entries in this
 # matrix are equal to 1 if the i'th Senator was the "sponsor" of a bill --
 # meaning that they wrote it, and 2 if the i'th Senator was a "cosponsor" of the
@@ -29,7 +29,7 @@ filenames <- list.files()
 # legislation sponsored by senator j. We call this a sociomatrix, or
 # adjacency matrix.
 
-# Lets begin by loading in some data:
+# Let's begin by loading in some data:
 cat("Loading Data... \n")
 
 # Create a list object to store the raw data in:
@@ -47,7 +47,7 @@ for (i in 1:length(filenames)) {
                      header = F) # there are no column names in the raw data.
 
 
-    # lets set some column names using 'paste()' for fun:
+    # let's set some column names using 'paste()' for fun:
     colnames(temp) <-  paste("Bill",1:ncol(temp), sep = "_")
 
     # We are only going to look at the first 100 bills from each Congress to
@@ -56,7 +56,7 @@ for (i in 1:length(filenames)) {
     cosponsorship_data[[i]]$raw_data <- temp
 }
 
-# now lets set names for each list entry
+# now let's set names for each list entry
 names(cosponsorship_data) <-  paste("Congress",100:110, sep = "_")
 
 
@@ -104,7 +104,7 @@ for (i in 1:length(filenames)) {
 }
 
 
-# Lets have a little bit of fun plotting these networks:
+# Let's have a little bit of fun plotting these networks:
 
 # First, we will need a package for handling network data:
 install.packages("statnet", dependencies = TRUE)
@@ -157,13 +157,13 @@ read_in_dataset <- function(filename, # the name of the file we want to read in.
                             has_header, # option for whether file includes a header.
                             columns_to_keep) { # number of columns to keep in dataset.
 
-    # Assumes a .csv file, but could be modified ot deal with other file types:
+    # Assumes a .csv file, but could be modified to deal with other file types:
     temp <- read.csv(filename,
                      stringsAsFactors = F,
                      header = has_header)
 
 
-    # lets set some column names using 'paste()' for fun:
+    # let's set some column names using 'paste()' for fun:
     colnames(temp) <-  paste("Bill",1:ncol(temp), sep = "_")
 
     # If columns_to_keep was NULL, set it to the number of columns in the dataset.
@@ -176,7 +176,7 @@ read_in_dataset <- function(filename, # the name of the file we want to read in.
 
 }
 
-# Now lets define a function for extracting cosponsorship information from a
+# Now let's define a function for extracting cosponsorship information from a
 # dataset and putting it in a cosponsorship matrix:
 generate_cosponsorship_matrix <- function(raw_data) {
 

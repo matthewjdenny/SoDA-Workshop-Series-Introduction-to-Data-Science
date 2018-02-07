@@ -87,7 +87,7 @@ for (i in 1:length(my_vector)) {
     }
 }
 
-# Another examle with and If/Else statement:
+# Another example with and If/Else statement:
 my_vector <- c(20:30)
 
 for (i in 1:length(my_vector)) {
@@ -115,10 +115,10 @@ load("Looping_Conditionals_Example_Data.RData")
 # chamber it was introduced in (House or Senate), the topic code (see reference
 # list below), and the party of the sponsor.
 
-# Lets say we wanted to look at a subset of all bills that were introduced in
+# Let's say we wanted to look at a subset of all bills that were introduced in
 # the House that were about any of the first ten topics, and then take the sum
 # of the number of bills introduced by each party that passed the house. This
-# would give us an extremely crude measure of how effective each part was on
+# would give us an extremely crude measure of how effective each party was on
 # these issues.
 
 # Topic codes:
@@ -142,7 +142,7 @@ load("Looping_Conditionals_Example_Data.RData")
 # 19. International Affairs and Foreign Aid
 # 20. Government Operations
 
-# Lets start by subsetting our data --we only want HR bills with a topic code
+# Let's start by subsetting our data -- we only want HR bills with a topic code
 # less than or equal to 10:
 reduced_data <- data[which(data$Bill_Type == "HR" & data$Topic_Code <= 10),]
 
@@ -167,9 +167,9 @@ for (i in 1:10) {
 
         # Set the variable we are going to lookup against for party ID:
         if (j == 1) {
-            party <- 100 # Code for a Democrat sponosred bill
+            party <- 100 # Code for a Democrat sponsored bill
         } else {
-            party <- 200 # Code for a Republican sponosred bill
+            party <- 200 # Code for a Republican sponsored bill
         }
 
         # Subset our data down to the current party/topic combination:

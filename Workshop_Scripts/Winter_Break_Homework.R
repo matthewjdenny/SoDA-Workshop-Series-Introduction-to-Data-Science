@@ -68,7 +68,7 @@ library(rio)
 # Some hints:
 # 1. You will need to assign a unique identifier to each bill. To do this, I
 # suggest creating a text variable for each row where you 'paste()' together the
-# $session, $chamber, and $number fields ot make a $Bill_ID variable.
+# $session, $chamber, and $number fields to make a $Bill_ID variable.
 # 2. Use the 'unique()' function and then the 'which()' function inside of a
 # 'for()' loop. You can either build up a data.frame, remove rows, or
 # pre-allocate a dataframe and fill it. This last option will be much faster, but

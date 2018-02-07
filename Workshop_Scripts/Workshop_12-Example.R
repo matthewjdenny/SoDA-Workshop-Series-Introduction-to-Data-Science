@@ -54,7 +54,7 @@ print(synthetic_tweets$text[1])
 i <- 1
 print(synthetic_tweets$text[i])
 
-# The last bit of example coe you will need is to put this inside of a 'grepl()'
+# The last bit of example code you will need is to put this inside of a 'grepl()'
 # call:
 i <- 1
 grepl("POTUS", synthetic_tweets$text[i], ignore.case = TRUE)
