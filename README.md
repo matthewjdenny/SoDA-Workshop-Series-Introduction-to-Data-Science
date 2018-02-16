@@ -117,7 +117,11 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_14-Basic_Web_Scraping.R).
 
 18. **2/19/18: Scraping Twitter**:
-
+    * This week, we will wrap up our introduction to web scraping and begin working with the Twitter streaming API. Twitter is a wonderful free resource for collecting large volumnes of real time social media data, but requires a fair bit of setup to get working. We will cover all of the basics of getting access to the Twitter API, and then go over some examples collecting Tweets containing a keyword and from a geographic area. 
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_15-Scraping_Twitter.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_15-Scraping_Twitter.R).
+    
+    
 19. **2/26/18: Advanced Web Scraping**:
 
 20. **3/5/18: Overview of Big Data and HPC in Social Science Research**:
