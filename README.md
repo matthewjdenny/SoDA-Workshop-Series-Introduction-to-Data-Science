@@ -123,6 +123,12 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     
     
 19. **2/26/18: Advanced Web Scraping**:
+    * In this workshop we will wrap up our Twitter scraping tutorial and move on to more advanced topics in web scraping. More specifically, we will cover streaming the 1% Twitter sample, as well as collecting Tweets from a geographic location. We will then move on to covering some practical considerations for scraping a large corpus of Tweets/webpages and dive into an example, time permitting.
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_16-More_Scraping.pptx).
+    * You can download the first R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_15-Scraping_Twitter.R).
+    * You can download the second R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_16-Scraping_Example.R).
+    * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_16-Bill_URLs.RData).
+
 
 20. **3/5/18: Overview of Big Data and HPC in Social Science Research**:
 
