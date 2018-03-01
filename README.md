@@ -128,25 +128,20 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the first R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_15-Scraping_Twitter.R).
     * You can download the second R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_16-Scraping_Example.R).
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_16-Bill_URLs.RData).
+  
 
+20. **3/12/18: Overview of Big Data and HPC in Social Science Research**:
+    * In this workshop we will briefly wrap up our discussion of more advanced web scraping techniques and then launch into an overview of big data and HPC in social science research. Our main goal will be to get everyone acquainted with the strategies and tools available for working with large and complex datasets in R (and at Penn State), and when to make use of them. More specifically, we will discuss efficient programming, parallelization, programming languages, and computer hardware, and how all of these fit together to accomplish complex data management tasks. 
 
-20. **3/5/18: Overview of Big Data and HPC in Social Science Research**:
+21. **3/19/18: Basics of Efficient Programming**:
 
-21. **3/12/18: Basics of Efficient Programming**:
+22. **3/26/18: Parallelization**:
 
-22. **3/19/18: Efficient Programming Exercise**:
+23. **4/2/18: Plotting**:
 
-23. **3/26/18: Parallelization**:
+24. **4/23/18: Managing Social Network Data**:
 
-24. **4/2/18: Cluster Computing**:
-
-25. **4/9/18: Plotting**:
-
-26. **4/16/18: Managing Social Network Data**:
-
-27. **4/23/18: Creating Your Own R Package**:
-
-28. **4/30/18: Wrap-up/Catch-up Day**:
+25. **4/30/18: Creating Your Own R Package**:
         
    
    
