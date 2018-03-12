@@ -82,7 +82,7 @@ bill_data <- vector(mode = "list",length = 100)
 for (i in 1:100) {
     cat("Currently scraping bill:",i,"of",100,"\n")
     # Make sure to sleep between iterations
-    Sys.sleep(round(runif(min = 3, max = 9)))
+    Sys.sleep(round(runif(n = 1, min = 3, max = 9)))
     # Scrape the data and store it in a list:
     bill_data[[i]] <- scrape_page( url = bill_urls_fixed[i])
 }
