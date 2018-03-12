@@ -132,6 +132,9 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
 
 20. **3/12/18: Overview of Big Data and HPC in Social Science Research**:
     * In this workshop we will briefly wrap up our discussion of more advanced web scraping techniques and then launch into an overview of big data and HPC in social science research. Our main goal will be to get everyone acquainted with the strategies and tools available for working with large and complex datasets in R (and at Penn State), and when to make use of them. More specifically, we will discuss efficient programming, parallelization, programming languages, and computer hardware, and how all of these fit together to accomplish complex data management tasks. 
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_17-HPC_Intro.pptx).
+    * You can download the R script we will wrap up covering in the first few minutes of this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_16-Scraping_Example.R).
+    * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_16-Bill_URLs.RData).
 
 21. **3/19/18: Basics of Efficient Programming**:
 
