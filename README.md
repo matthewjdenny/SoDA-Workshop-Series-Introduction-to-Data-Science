@@ -137,6 +137,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_16-Bill_URLs.RData).
 
 21. **3/19/18: Basics of Efficient Programming**:
+    * In this workshop, we will cover the basics of efficient programming, and go over some classic pitfalls to avoid. We will cover growing datastructures (and why we avoid them!), subsetting, using builtin functions, and sparse matrices, among other tricks for working more efficiently in R. Our goal will be to write code that uses less resources (time and memory) to complete the same task, without requiring significant additional programming on our part.
 
 22. **3/26/18: Parallelization**:
 
