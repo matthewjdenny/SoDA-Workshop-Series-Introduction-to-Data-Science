@@ -137,7 +137,8 @@ system.time({
 # just like using the which function to get the row indices, then subsetting the
 # data manually with those indices:
 system.time({
-    dat <- subset(data, data[,2] == 1)
+    # dat <- subset(data, data[,2] == 1)
+    dat <- data[which(data[,2] == 1),]
     total <- sum(dat[,1])
     print(total)
 })
