@@ -143,7 +143,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_18_Example_Data.RData).
 
 22. **3/26/18: Parallelization and Sparse Data**:
-    *In this workshop we will focus on efficient data structures for representing sparse data (datasets containing lots of zeros), and processing data in parallel. The majority of the workshop will be spent going over the basics of implementing parallelization across several different types of data management problems. My goal will be to give participants the tools to speed up their computation across many related tasks, without having to get too deep into the weeds with programming.
+    * In this workshop we will focus on efficient data structures for representing sparse data (datasets containing lots of zeros), and processing data in parallel. The majority of the workshop will be spent going over the basics of implementing parallelization across several different types of data management problems. My goal will be to give participants the tools to speed up their computation across many related tasks, without having to get too deep into the weeds with programming.
 
 
 23. **4/2/18: Plotting**:
