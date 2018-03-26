@@ -1,3 +1,46 @@
+### Handling Big Data ###
+setwd("~/Desktop")
+
+# Start by setting the seed so our results are reproducible
+set.seed(12345)
+
+# Next create some big fake sparse (lots of zeros) data:
+big_data <- matrix(round(rnorm(10000000) * runif(10000000, min = 0,max = 0.2)),
+                   nrow = 1000000,
+                   ncol = 100)
+
+# Find out how many entries are just zeros:
+length(which(big_data == 0))
+
+# Now lets represent this as a simple triplet matrix:
+install.packages("slam", dependencies = TRUE)
+library(slam)
+
+# Now we can use this function provided by slam to transform our dense matrix
+# into a sparse matrix:
+sparse_big_data <- slam::as.simple_triplet_matrix(big_data)
+
+# Lets check the value at this index in the matrix object:
+big_data[1436,1]
+
+# Now we can try the same thing for the sparse matrix object:
+as.matrix(sparse_big_data[1436,1])
+
+# Now lets see what happens when we save the data as a .csv vs. as an .RData
+# file:
+
+# install.packages("rio", dependencies = TRUE)
+library(rio)
+setwd("~/Desktop")
+
+# Try saving in both formats and look at the file sizes:
+export(big_data, file = "Data.csv")
+save(big_data, file = "Data.RData")
+
+
+
+
+
 ## Parallelization ###
 
 # Lets start with an example of parallelization using the foreach package in R:
