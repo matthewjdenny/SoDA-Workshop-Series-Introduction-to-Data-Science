@@ -149,7 +149,7 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Workshop_19-Data.zip).
 
 
-23. **4/2/18: Plotting**:
+23. **4/16/18: Plotting**:
     * In this workshop we will cover the basics of plotting in R. This will include how to put your data in a format where it can be plotted, and how to control a number of aesthetic features of R plots, including coloring, titles, legends, axis labels, etc. We will make use of both the base R graphics, and ggplot2, an add-onp ackage for generating beautiful plots in R.
     
 24. **4/23/18: Advanced Plotting**:
