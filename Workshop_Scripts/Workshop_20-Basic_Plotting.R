@@ -1,5 +1,5 @@
 # Basic Plotting in R
-# matthewjdennt@gmail.com
+# matthewjdenny@gmail.com
 
 # preliminaries
 rm(list = ls())
@@ -140,6 +140,21 @@ ggplot(data=data, aes(data$age)) +
     ylab("Number of Subjects") +
     geom_density(col= "orange")
 
+
+# finally, lets deal with outputting a PDF:
+pdf(file = "Example.pdf",
+    height = 4,
+    width = 6)
+ggplot(data=data, aes(data$age)) +
+    geom_histogram(aes(y =..density..),
+                   breaks=10:80,
+                   col="black",
+                   fill="blue",
+                   alpha = .2) +
+    xlab("Subject Age") +
+    ylab("Number of Subjects") +
+    geom_density(col= "orange")
+dev.off()
 
 
 
