@@ -53,7 +53,7 @@ plot(x = age,
      col = "blue",
      xlim = c(0,80),
      ylim = c(0,100000),
-     main = "Ave vs. Income",
+     main = "Age vs. Income",
      xlab = "Subject Age",
      ylab = "Subject Income")
 
