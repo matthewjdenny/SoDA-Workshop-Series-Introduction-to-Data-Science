@@ -28,10 +28,9 @@ data <- data.frame(age = age,
                    type = type,
                    stringsAsFactors = FALSE)
 
-
 # lets start with a simple scatter plot of age against income:
-plot(x = age,
-     y = income)
+plot(x = data$age,
+     y = data$income)
 
 
 # now lets make it look a bit nicer:
@@ -49,11 +48,11 @@ options(scipen=999)
 
 plot(x = age,
      y = income,
-     pch = 3,
+     pch = 20,
      col = "blue",
      xlim = c(0,80),
      ylim = c(0,100000),
-     main = "Ave vs. Income",
+     main = "Age vs. Income",
      xlab = "Subject Age",
      ylab = "Subject Income")
 
@@ -68,18 +67,21 @@ boxplot(income~age_group,
 
 # and a histogram:
 hist(data$age,
-     breaks = 10:80,
+     breaks = 0:80,
      xlab = "Age",
      main = "Histogram of Subject Age",
      col = "darkblue")
 
 
 # Now lets do the same thing using ggplot2
-p <- ggplot(data = data,aes(x = age, y = income))
-p + geom_point(size = 2, shape = 23, col = "darkgreen")
+p <- ggplot(data = data,
+            aes(x = age, y = income))
+p + geom_point(size = 2,
+               shape = 20,
+               col = "darkgreen")
 
 # in ggplot2, we add parameters using the + operator:
-p + geom_point(size = 2, shape = 23, col = "darkgreen") +
+p + geom_point(size = 2, shape = 20, col = "darkgreen") +
     xlab("Subject Age") +
     ylab("Subject Income")
 
@@ -98,11 +100,11 @@ print(p)
 
 # we can also change the y and y axis scales:
 ggplot(data = data,aes(x = age, y = income)) +
-    geom_point(size = 2, shape = 23, col = "darkgreen") +
+    geom_point(size = 2, shape = 20, col = "darkgreen") +
     xlab("Subject Age") +
     ylab("Subject Income") +
     scale_y_log10(breaks = c(5000,10000,50000,100000),
-                  limits = c(5000,100000),
+                  limits = c(4000,100000),
                   labels = scales::comma) +
     geom_smooth()
 
@@ -120,19 +122,19 @@ ggplot(data = data,aes(x = age_group,
 
 
 # and finally, lets create a histogram
-ggplot(data=data, aes(data$age)) +
+ggplot(data=data, aes(age)) +
     geom_histogram(aes(y =..count..),
-                   breaks=10:80,
+                   breaks=0:80,
                    col="black",
                    fill="blue",
-                   alpha = .2) +
+                   alpha = .3) +
     xlab("Subject Age") +
     ylab("Number of Subjects")
 
 # lets try this with density instead
 ggplot(data=data, aes(data$age)) +
     geom_histogram(aes(y =..density..),
-                   breaks=10:80,
+                   breaks=0:80,
                    col="black",
                    fill="blue",
                    alpha = .2) +
@@ -147,7 +149,7 @@ pdf(file = "Example.pdf",
     width = 6)
 ggplot(data=data, aes(data$age)) +
     geom_histogram(aes(y =..density..),
-                   breaks=10:80,
+                   breaks=0:80,
                    col="black",
                    fill="blue",
                    alpha = .2) +
