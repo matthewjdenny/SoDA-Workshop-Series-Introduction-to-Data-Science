@@ -20,14 +20,12 @@ library(ggplot2)
 library(gridExtra)
 
 # set your working directory (for me, this looks like):
-setwd("~/Desktop/Publication_Quality_Plots")
+setwd("~/Desktop")
 # Lets load in some "data" we will use in this tutorial:
 load("LaCour_Data.Rdata")
 load("Influence_Data.Rdata")
 load("Influence_Data_2.Rdata")
 
-# Now lets set the working directory where we would like to save our plots:
-setwd("~/Desktop")
 
 # Here, I am going to go over an example plot, then see how we can improve on
 # it. Note that the code I will use below is taken directly from:
