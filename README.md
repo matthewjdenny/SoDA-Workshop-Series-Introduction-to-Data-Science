@@ -157,6 +157,9 @@ link and your client or by clicking the "Clone in Desktop" button on the right h
     
 24. **4/30/18: Advanced Plotting**:
     * In this workshop, we will take what we have already learned about plotting in R, and apply it to a number of example datasets to make publication quality plots. Here, the goal will be mastering some of hte more advanced features of ggplot2, in order to effectively communicate complex data, while also having total control over the aesthetics of the plots. 
+    * You can find the slides for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Materials/Workshop_21-Advanced_Plotting.pptx).
+    * You can download the R script for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Scripts/Workshop_21-Publication_Quality_Plots.R).
+    * You can download the data for this workshop [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Influence_Data.Rdata), [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/Influence_Data_2.Rdata), and [here](https://github.com/matthewjdenny/SoDA-Workshop-Series-Introduction-to-Data-Science/blob/master/Workshop_Data/LaCour_Data.Rdata) .
 
 
 
